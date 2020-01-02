@@ -13,5 +13,6 @@
 > 3. 형태소 분석(Mecab, Twitter)
 > 4. 4개 학습데이터 구축(1. Mecab 2. Twitter 3. 음절 4. 자모)
 > 5. 4개 학습데이터기반의 Conv-BiLSTM 앙상블모델 구축
+![ex_screenshot](./img/Cov-BiLSTMmodel.png)
 > 6. 성능평가(Accuracy, Precision, Recall, Fbeta, Ap score)
-> 7. Cutoff Selection Plot
+> 7. Cutoff Selection Plot 
