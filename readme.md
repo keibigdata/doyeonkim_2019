@@ -10,6 +10,7 @@
  - 분석 순서 :
 > 1. 라이브러리 임포트
 > 2. 데이터 전처리(특수문자제거, 조사제거, 자모 분류, 음절 분류 등)
+![TOKEN](https://user-images.githubusercontent.com/29788540/71659119-bfceec00-2d89-11ea-9be4-65dc42683e39.png)
 > 3. 형태소 분석(Mecab, Twitter)
 > 4. 4개 학습데이터 구축(1. Mecab 2. Twitter 3. 음절 4. 자모)
 > 5. 4개 학습데이터기반의 Conv-BiLSTM 앙상블모델 구축
