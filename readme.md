@@ -7,6 +7,7 @@
 - 2개 감성 : 1. 긍정(황홀/기쁨, 기대/관심, 감탄/존경) 및 중립, 2. 부정(분노/짜증, 두려움/공포, 슬픔/수심)
 - Windows 환경에서 학습 데이터 다운로드 시 이모지(Emoji)가 깨져보여 이모지를 한글로 변환함.
 >  참고 : 이모지 포함된 학습데이터 등은 doyeonkim_2018 학습 데이터 자료 참고
+
 ![DIC](https://user-images.githubusercontent.com/29788540/71659713-e726b880-2d8b-11ea-9369-f9e8ec19b59a.png)
 
 ## 2_ Conv-BiLSTM 감성분류기 알고리즘 코드
@@ -14,10 +15,12 @@
  ![PROCESS](https://user-images.githubusercontent.com/29788540/71659735-fdcd0f80-2d8b-11ea-8ecb-3c9741064f42.png)
  
 > 1. 데이터 전처리(특수문자제거, 조사제거, 자모 분류, 음절 분류 등)
+
 ![TOKEN](https://user-images.githubusercontent.com/29788540/71659119-bfceec00-2d89-11ea-9be4-65dc42683e39.png)
 > 2. 형태소 분석(Mecab, Twitter)
 > 3. 4개 학습데이터 구축(1. Mecab 2. Twitter 3. 음절 4. 자모)
 > 4. 4개 학습데이터기반의 Conv-BiLSTM 앙상블모델 구축
+
 ![MODEL](https://user-images.githubusercontent.com/29788540/71658976-2bfd2000-2d89-11ea-96ad-c6cf3eb3885b.png)
 > 5. 성능평가(Accuracy, Precision, Recall, Fbeta, Ap score), Cutoff Selection Plot
 ![PERFORMANCE](https://user-images.githubusercontent.com/29788540/71659556-62d43580-2d8b-11ea-930f-349dea4a0ea9.png)
