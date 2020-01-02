@@ -16,4 +16,5 @@
 > 5. 4개 학습데이터기반의 Conv-BiLSTM 앙상블모델 구축
 ![MODEL](https://user-images.githubusercontent.com/29788540/71658976-2bfd2000-2d89-11ea-96ad-c6cf3eb3885b.png)
 > 6. 성능평가(Accuracy, Precision, Recall, Fbeta, Ap score)
-> 7. Cutoff Selection Plot 
+> 7. Cutoff Selection Plot
+![PERFORMANCE](https://user-images.githubusercontent.com/29788540/71659556-62d43580-2d8b-11ea-930f-349dea4a0ea9.png)
